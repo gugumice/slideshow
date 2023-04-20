@@ -43,6 +43,8 @@ class Button():
             if pygame.mouse.get_pressed()[0]:
                 if int(time.time_ns()/1000) > self.timer + self.debounce_ms:
                     self.clicked = True
+                    #Update timer
+                    timer = int(time.time_ns()/1000)
                     bottom_rect.inflate_ip(self.elevation, self.elevation)
                     top_rect.inflate_ip(self.elevation, self.elevation)
 
@@ -62,6 +64,9 @@ class Button():
         return(action)
 
 def load_images(d):
+    '''
+    Load images into dict
+    '''
     dict = {}
     for i in d.keys():
         img = pygame.image.load(i)
@@ -69,6 +74,9 @@ def load_images(d):
         dict.update({i:img})
     return(dict)
 def set_buttons(curr_pict,pl_list):
+    '''
+    Set nav buttons
+    '''
     butt=[]
     try:
         butt_data = pl_list[curr_pict]
