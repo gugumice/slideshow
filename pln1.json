@@ -1,326 +1,284 @@
-
 {
-    "Ekr1-01.jpg":
-    [
+    "Ekr1-01.jpg": [
         {
-        "0":
-            {
-                "xpos":155,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-02.jpg"
+            "0": {
+                "xpos": 155,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-02.jpg"
             }
         },
         {
-        "1":
-            {
-                "xpos":380,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-03.jpg"
+            "1": {
+                "xpos": 380,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-03.jpg"
             }
         },
         {
-        "2":
-            {
-                "xpos":600,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-04.jpg"
+            "2": {
+                "xpos": 600,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-04.jpg"
             }
         },
         {
-        "3":
-            {
-                "xpos":825,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-05.jpg"
+            "3": {
+                "xpos": 825,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-05.jpg"
             }
         },
         {
-        "4":
-            {
-                "xpos":1045,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-06.jpg"
+            "4": {
+                "xpos": 1045,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-06.jpg"
             }
         }
     ],
-    "Ekr1-02.jpg":
-    [
+    "Ekr1-02.jpg": [
         {
-        "1":
-            {
-                "xpos":380,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-03.jpg"
+            "1": {
+                "xpos": 380,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-03.jpg"
             }
         },
         {
-        "2":
-            {
-                "xpos":600,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-04.jpg"
+            "2": {
+                "xpos": 600,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-04.jpg"
             }
         },
         {
-        "3":
-            {
-                "xpos":825,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-05.jpg"
+            "3": {
+                "xpos": 825,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-05.jpg"
             }
         },
         {
-        "4":
-            {
-                "xpos":1045,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-06.jpg"
+            "4": {
+                "xpos": 1045,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-06.jpg"
             }
         },
         {
-        "x":
-            {
-                "xpos":1050,
-                "ypos":100,
-                "width":50,
-                "height":50,
-                "pict":"x.jpg"
+            "x": {
+                "xpos": 1050,
+                "ypos": 100,
+                "width": 50,
+                "height": 50,
+                "pict": "x.jpg"
             }
         }
     ],
-    "Ekr1-03.jpg":
-    [
+    "Ekr1-03.jpg": [
         {
-        "0":
-            {
-                "xpos":155,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-02.jpg"
+            "0": {
+                "xpos": 155,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-02.jpg"
             }
         },
         {
-        "2":
-            {
-                "xpos":600,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-04.jpg"
+            "2": {
+                "xpos": 600,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-04.jpg"
             }
         },
         {
-        "3":
-            {
-                "xpos":825,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-05.jpg"
+            "3": {
+                "xpos": 825,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-05.jpg"
             }
         },
         {
-        "4":
-            {
-                "xpos":1045,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-06.jpg"
+            "4": {
+                "xpos": 1045,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-06.jpg"
             }
         },
         {
-        "x":
-            {
-                "xpos":1050,
-                "ypos":100,
-                "width":50,
-                "height":50,
-                "pict":"x.jpg"
+            "x": {
+                "xpos": 1050,
+                "ypos": 100,
+                "width": 50,
+                "height": 50,
+                "pict": "x.jpg"
             }
         }
     ],
-    "Ekr1-04.jpg":
-    [
+    "Ekr1-04.jpg": [
         {
-        "0":
-            {
-                "xpos":155,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-02.jpg"
+            "0": {
+                "xpos": 155,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-02.jpg"
             }
         },
         {
-        "1":
-            {
-                "xpos":380,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-03.jpg"
+            "1": {
+                "xpos": 380,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-03.jpg"
             }
         },
         {
-        "3":
-            {
-                "xpos":825,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-05.jpg"
+            "3": {
+                "xpos": 825,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-05.jpg"
             }
         },
         {
-        "4":
-            {
-                "xpos":1045,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-06.jpg"
+            "4": {
+                "xpos": 1045,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-06.jpg"
             }
         },
         {
-            "x":
-            {
-                "xpos":1050,
-                "ypos":100,
-                "width":50,
-                "height":50,
-                "pict":"x.jpg"
+            "x": {
+                "xpos": 1050,
+                "ypos": 100,
+                "width": 50,
+                "height": 50,
+                "pict": "x.jpg"
             }
         }
     ],
-        "Ekr1-05.jpg":
-    [
+    "Ekr1-05.jpg": [
         {
-        "0":
-            {
-                "xpos":155,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-02.jpg"
+            "0": {
+                "xpos": 155,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-02.jpg"
             }
         },
         {
-        "1":
-            {
-                "xpos":380,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-03.jpg"
+            "1": {
+                "xpos": 380,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-03.jpg"
             }
         },
         {
-        "2":
-            {
-                "xpos":600,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-04.jpg"
+            "2": {
+                "xpos": 600,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-04.jpg"
             }
         },
         {
-        "4":
-            {
-                "xpos":1045,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-06.jpg"
+            "4": {
+                "xpos": 1045,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-06.jpg"
             }
         },
         {
-        "x":
-            {
-                "xpos":1050,
-                "ypos":100,
-                "width":50,
-                "height":50,
-                "pict":"x.jpg"
+            "x": {
+                "xpos": 1050,
+                "ypos": 100,
+                "width": 50,
+                "height": 50,
+                "pict": "x.jpg"
             }
         }
     ],
-    "Ekr1-06.jpg":
-    [
+    "Ekr1-06.jpg": [
         {
-        "0":
-            {
-                "xpos":155,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-02.jpg"
+            "0": {
+                "xpos": 155,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-02.jpg"
             }
         },
         {
-        "1":
-            {
-                "xpos":380,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-03.jpg"
+            "1": {
+                "xpos": 380,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-03.jpg"
             }
         },
         {
-        "2":
-            {
-                "xpos":600,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-04.jpg"
+            "2": {
+                "xpos": 600,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-04.jpg"
             }
         },
         {
-        "3":
-            {
-                "xpos":825,
-                "ypos":560,
-                "width":80,
-                "height":80,
-                "pict":"Ekr1-05.jpg"
+            "3": {
+                "xpos": 825,
+                "ypos": 560,
+                "width": 80,
+                "height": 80,
+                "pict": "Ekr1-05.jpg"
             }
         },
         {
-        "x":
-            {
-                "xpos":1050,
-                "ypos":100,
-                "width":50,
-                "height":50,
-                "pict":"x.jpg"
+            "x": {
+                "xpos": 1050,
+                "ypos": 100,
+                "width": 50,
+                "height": 50,
+                "pict": "x.jpg"
             }
         }
     ]
-        
-    
-
-    
-    
 }
