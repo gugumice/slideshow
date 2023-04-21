@@ -74,7 +74,7 @@ def set_buttons(curr_pict,pl_list):
             btn_data=b[k]
             #b=(btn_data['pict'],btn_data['width'],btn_data['height'],(btn_data['xpos'],btn_data['ypos'],ELEVATION,COLOR, SHADOW, HOVER))
             butt.append(Button(btn_data['pict'],btn_data['width'],btn_data['height'],(btn_data['xpos'],btn_data['ypos']),
-                               ELEVATION,COLOR, SHADOW, HOVER))
+                               ELEVATION,COLOR, SHADOW, HOVER,))
     return(butt)
 
 def main():
@@ -89,19 +89,22 @@ def main():
     #Load images into dict
     img_dict = load_images(play_list)
     current_pict = list(img_dict.keys())[0]
+
     pygame.display.set_caption(current_pict)
     fnt = pygame.font.SysFont("monospace", 15)
+    #If 
     pict_name_img = fnt.render(current_pict, True, (255, 255, 255))
     pict_name_rect = pict_name_img.get_rect()
     pict_name_rect.topleft = (1,1)
     buttons = []
-    timer = time.time()
+    #If no activity, goto first slide
+    idle_timer = time.time()
     running = True
 
     while running:
         #check timer
-        if time.time()>timer + TIMEOUT:
-            timer = time.time()
+        if time.time()>idle_timer + TIMEOUT:
+            idle_timer = time.time()
             current_pict = list(img_dict.keys())[0]
             buttons = []
         #set buttons
@@ -127,6 +130,7 @@ def main():
                 #print(button.target)
                 current_pict = button.target
                 buttons = []
+                idle_timer = time.time()
                 break
         
         if args.visible:
@@ -161,19 +165,38 @@ def main():
         clock.tick(30)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Slide show')
+    parser = argparse.ArgumentParser(prog='PyGame image kiosk',
+                        description='Slide show',
+                        epilog='We apoligise for inconveniance')
     parser.add_argument('filename',
-                        help='Playlist file .json',)
+                        help='Playlist file ".json"',)
     parser.add_argument('-v','--visible',
                         action='store_true',
                         help='Make command buttons visible',
                         required=False,
                         default=False
                         )
-    parser.add_argument('-r','--resolution', nargs='+', 
+    parser.add_argument('-r','--resolution', nargs='+',
+                        type = int,
+                        metavar = 'x,y',
+                        required = False,
                         help='Custom Screen size (h,v)')
+    parser.add_argument('-i','--idle',
+                        metavar = 'mins',
+                        default = 5,
+                        type = int,
+                        required = False,
+                        help = 'Idle timer (mins), default: 5')
+    parser.add_argument('-d','--debounce',
+                        metavar='secs',
+                        default = .5,
+                        type = float,
+                        required = False,
+                        help = 'Time (secs) buttons are blocked after action, default: 0.5',
+                        )
+    
     args = parser.parse_args()
-    #print(args)
+    print(args)
     if args.visible:
         COLOR = (128, 128, 255, 50)
         SHADOW = (64, 64, 128, 20)
@@ -183,7 +206,8 @@ if __name__ == '__main__':
         SHADOW = (64, 64, 128, 0)
         HOVER = (255, 128, 255, 20)
     ELEVATION = 5
-    TIMEOUT=5*60
+    #Idle timeout
+    TIMEOUT=args.idle*60
     pygame.init()
     if args.resolution is None:
         screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
