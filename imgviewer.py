@@ -63,7 +63,7 @@ def load_images(d):
     dict = {}
     for i in d.keys():
         img = pygame.image.load(i)
-        img = pygame.transform.scale(img, (width, height))
+        img = pygame.transform.smoothscale(img, (width, height))
         dict.update({i: img})
     return (dict)
 
@@ -113,6 +113,7 @@ def main():
             idle_timer = time.time()
             current_pict = list(img_dict.keys())[0]
             buttons = []
+            #print(time.asctime())
         # set buttons
         if len(buttons) == 0:
             buttons = set_buttons(current_pict, play_list)
@@ -201,7 +202,6 @@ if __name__ == '__main__':
                         )
 
     args = parser.parse_args()
-    # print(args)
     if args.visible:
         COLOR = (128, 128, 255, 50)
         SHADOW = (64, 64, 128, 20)
@@ -212,7 +212,7 @@ if __name__ == '__main__':
         HOVER = (255, 128, 255, 20)
     ELEVATION = 5
     # Idle timeout. Return to first slide if no action
-    TIMEOUT = args.idle*60
+    TIMEOUT = int(args.idle)*60
     pygame.init()
     if args.resolution is None:
         screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
